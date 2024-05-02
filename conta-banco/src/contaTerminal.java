@@ -7,7 +7,7 @@ public class contaTerminal {
         System.out.println("Bem vindo ao ContaBanco");
         
         System.out.println("Dgite o numero da agenica");
-        int numeroAgencia = scanner.nextInt();
+        String numeroAgencia = scanner.nextLine();
      
 
         System.out.println("Digite o numero da conta");
